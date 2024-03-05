@@ -1,0 +1,29 @@
+*, *::before, *::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html, body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 16px;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   height: 100vh;
+   justify-content: center;
+   align-items: center;
+}
+
+table {
+   border-collapse: collapse;
+   margin-bottom: 2rem;
+   border: 1px solid #333;
+}
+
+table tr td {
+   padding: 10px 15px;
+}
